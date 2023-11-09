@@ -1,7 +1,7 @@
 package testScripts;
 
 import org.testng.asserts.SoftAssert;
-
+//test success
 Run All
 public class CreateCourseTest extends BaseClass {
 	
