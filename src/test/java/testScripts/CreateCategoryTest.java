@@ -1,4 +1,5 @@
 package testScripts;
+<<<<<<< HEAD
 
 import java.util.List;
 import java.util.Map;
@@ -44,6 +45,10 @@ public class CreateCategoryTest extends BaseClass{
 		soft.assertAll();
 	}
 	
+=======
+//the test is success...
+public class CreateCategoryTest {
+>>>>>>> branch 'master' of https://github.com/naveen9963385752/SkillRary4.git
 
 }
 

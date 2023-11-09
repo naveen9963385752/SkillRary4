@@ -6,10 +6,15 @@ import java.util.Map;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+<<<<<<< HEAD
 
 import genericLibraries.BaseClass;
 import genericLibraries.IConstentPath;
 
+=======
+//test success
+Run All
+>>>>>>> branch 'master' of https://github.com/naveen9963385752/SkillRary4.git
 public class CreateCourseTest extends BaseClass {
 	@Test
 	public void createCourseTest() throws InterruptedException {
