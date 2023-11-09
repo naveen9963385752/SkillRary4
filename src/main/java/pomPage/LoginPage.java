@@ -19,7 +19,7 @@ public class LoginPage {
 	@FindBy(id = "login")
 	private WebElement loginButton;
 
-//Intialization
+//Initialization
 
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

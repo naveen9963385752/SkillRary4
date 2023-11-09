@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import genericLibraries.BaseClass;
+import genericLibraries.IConstentPath;
 
 public class CreateUserTest extends BaseClass {
 	@Test
@@ -25,9 +26,9 @@ public class CreateUserTest extends BaseClass {
 	soft.assertTrue(users.getSuccessMessage().contains("Success"));
 	
 	if(course.getSuccessMessage().contains("Success"))
-		excel.writeToExcel("Sheet1", "Add User", "Pass", IConstantPath.EXCEL_PATH);
+		excel.writeToExcel("Sheet1", "Add User", "Pass", IConstentPath.EXCEL_PATH);
 	else
-		excel.writeToExcel("Sheet1", "Add User", "Fail", IConstantPath.EXCEL_PATH);
+		excel.writeToExcel("Sheet1", "Add User", "Fail", IConstentPath.EXCEL_PATH);
 	soft.assertAll();
 		
 	}

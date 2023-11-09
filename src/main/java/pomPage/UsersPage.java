@@ -51,4 +51,9 @@ public class UsersPage {
 	{
 		return lastUser.getText();
 	}
+
+	public String getSuccessMessage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
